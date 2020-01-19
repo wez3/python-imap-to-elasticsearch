@@ -1,6 +1,6 @@
 # Python imap to elasticsearch
 
-This script monitors a IMAP mailbox and writes the incoming mails to a file in JSON-format (line by line).
+Reads a IMAP mailbox and writes the e-mails in JSON-format to a file. (line by line).
 The output file can be read by filebeat, to forward the e-mails to logstash / elasticsearch.
 Adding the script to a cronjob allows to repeat this every X.
 
